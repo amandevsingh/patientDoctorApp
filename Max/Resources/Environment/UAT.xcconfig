@@ -1,0 +1,11 @@
+//
+//  UAT.xcconfig
+//  Max
+//
+//  Created by Rahul on 23/12/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+base_url = betamedi.hlthclub.in/uat

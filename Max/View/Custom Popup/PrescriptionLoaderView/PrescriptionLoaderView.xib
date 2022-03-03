@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </array>
+        <array key="Proxima Nova Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrescriptionLoaderView" customModule="Max" customModuleProvider="target">
+            <connections>
+                <outlet property="downloadIndicatorView" destination="igY-Mk-Ma4" id="2T0-vP-a9q"/>
+                <outlet property="uploadPrescriptionLabel" destination="lWz-XV-gbE" id="pUb-Rz-Ysr"/>
+                <outlet property="uploadStatusLoaderLabel" destination="6Xj-Tz-smg" id="bPX-61-vqh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="XIH-a7-lND"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="203"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uploading Prescription" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWz-XV-gbE">
+                    <rect key="frame" x="125" y="146" width="164" height="27"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
+                    <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igY-Mk-Ma4">
+                    <rect key="frame" x="162" y="31" width="90" height="90"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 %" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xj-Tz-smg">
+                            <rect key="frame" x="32" y="37" width="26" height="16"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
+                            <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="6Xj-Tz-smg" firstAttribute="centerX" secondItem="igY-Mk-Ma4" secondAttribute="centerX" id="3c7-TK-Oo8"/>
+                        <constraint firstAttribute="width" constant="90" id="7iU-i2-mTz"/>
+                        <constraint firstAttribute="height" constant="90" id="a1k-eV-Bgn"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Xj-Tz-smg" secondAttribute="trailing" constant="24" id="cx2-nE-2KW"/>
+                        <constraint firstItem="6Xj-Tz-smg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="igY-Mk-Ma4" secondAttribute="leading" constant="24" id="fUV-1G-kOw"/>
+                        <constraint firstItem="6Xj-Tz-smg" firstAttribute="centerY" secondItem="igY-Mk-Ma4" secondAttribute="centerY" id="nFS-W4-WF8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="igY-Mk-Ma4" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="1pm-bL-GpU"/>
+                <constraint firstItem="lWz-XV-gbE" firstAttribute="top" secondItem="igY-Mk-Ma4" secondAttribute="bottom" constant="25" id="AuP-iY-hKL"/>
+                <constraint firstAttribute="bottom" secondItem="lWz-XV-gbE" secondAttribute="bottom" constant="30" id="Dal-eg-5AE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lWz-XV-gbE" secondAttribute="trailing" constant="20" id="IbP-aX-gLX"/>
+                <constraint firstItem="lWz-XV-gbE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="c33-HA-54B"/>
+                <constraint firstItem="igY-Mk-Ma4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="31" id="mf6-cC-dYP"/>
+                <constraint firstItem="lWz-XV-gbE" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="vjq-BW-jY8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="166.66666666666669" y="-339.50892857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

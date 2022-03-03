@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Proxima Nova Semibold.otf">
+            <string>ProximaNova-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="KGk-i7-Jjw" customClass="SelectDoctorsTableViewCell" customModule="Max" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G6r-Ro-P9Q">
+                        <rect key="frame" x="10" y="10" width="302" height="69"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demi_icons" translatesAutoresizingMaskIntoConstraints="NO" id="mdA-Kv-Gb8">
+                                <rect key="frame" x="45" y="14" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="nBC-Yu-v9O"/>
+                                    <constraint firstAttribute="height" constant="40" id="xF3-11-g9x"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="dAR-mP-KLG">
+                                <rect key="frame" x="97" y="12.5" width="185" height="43"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Shubham Sharma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzA-8a-5Q7">
+                                        <rect key="frame" x="0.0" y="0.0" width="185" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="qcA-aR-Ptw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
+                                        <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Physician" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbO-9a-XhR">
+                                        <rect key="frame" x="0.0" y="23" width="185" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="DlD-sm-cc2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
+                                        <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kU-bn-mQJ">
+                                <rect key="frame" x="14" y="27" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="BVV-ZH-agP"/>
+                                    <constraint firstAttribute="height" constant="15" id="Ttc-qE-D8g"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="radio_btn_off"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7kU-bn-mQJ" firstAttribute="leading" secondItem="G6r-Ro-P9Q" secondAttribute="leading" constant="14" id="4hH-Kv-pNm"/>
+                            <constraint firstAttribute="trailing" secondItem="dAR-mP-KLG" secondAttribute="trailing" constant="20" id="6Ui-RB-6am"/>
+                            <constraint firstAttribute="bottom" secondItem="mdA-Kv-Gb8" secondAttribute="bottom" constant="15" id="EdV-ST-Ped"/>
+                            <constraint firstItem="mdA-Kv-Gb8" firstAttribute="leading" secondItem="7kU-bn-mQJ" secondAttribute="trailing" constant="16" id="MdW-rJ-AeB"/>
+                            <constraint firstItem="dAR-mP-KLG" firstAttribute="centerY" secondItem="mdA-Kv-Gb8" secondAttribute="centerY" id="Q1Y-fi-yfW"/>
+                            <constraint firstItem="7kU-bn-mQJ" firstAttribute="centerY" secondItem="G6r-Ro-P9Q" secondAttribute="centerY" id="QII-yJ-AuY"/>
+                            <constraint firstItem="dAR-mP-KLG" firstAttribute="leading" secondItem="mdA-Kv-Gb8" secondAttribute="trailing" constant="12" id="lQJ-o5-Ida"/>
+                            <constraint firstItem="mdA-Kv-Gb8" firstAttribute="top" secondItem="G6r-Ro-P9Q" secondAttribute="top" constant="14" id="xAk-91-kGW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.69999999999999996"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.60784313729999995" green="0.72549019609999998" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.87450980392156863" green="0.91764705882352937" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="G6r-Ro-P9Q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="MkE-zo-VNs"/>
+                    <constraint firstAttribute="trailing" secondItem="G6r-Ro-P9Q" secondAttribute="trailing" constant="10" id="SQM-5s-Vst"/>
+                    <constraint firstItem="G6r-Ro-P9Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dFk-4b-cdW"/>
+                    <constraint firstAttribute="bottom" secondItem="G6r-Ro-P9Q" secondAttribute="bottom" constant="10" id="pFt-fy-hvT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="doctorDetailsLabel" destination="wbO-9a-XhR" id="uR8-jK-dmI"/>
+                <outlet property="doctorImage" destination="mdA-Kv-Gb8" id="aKP-MB-EyN"/>
+                <outlet property="doctorNameLabel" destination="xzA-8a-5Q7" id="fu6-em-LKv"/>
+                <outlet property="radioBtn" destination="7kU-bn-mQJ" id="Ucj-ZC-ler"/>
+                <outlet property="shadowView" destination="G6r-Ro-P9Q" id="WZZ-xk-DXJ"/>
+            </connections>
+            <point key="canvasLocation" x="139.13043478260872" y="108.81696428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="demi_icons" width="41" height="41"/>
+        <image name="radio_btn_off" width="17" height="17"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

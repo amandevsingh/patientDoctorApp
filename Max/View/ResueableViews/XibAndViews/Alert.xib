@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Alert" customModule="Max" customModuleProvider="target">
+            <connections>
+                <outlet property="alertTypeImage" destination="L5u-AA-AxO" id="3sg-Z1-D0A"/>
+                <outlet property="consHeightView" destination="1lN-Lm-Qam" id="GLu-D5-hxl"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="k4O-gZ-E14"/>
+                <outlet property="lblTitle" destination="Ydb-Sn-pfa" id="ONj-1v-vCT"/>
+                <outlet property="vwMain" destination="a4h-7q-sbM" id="7rv-ga-kwN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4h-7q-sbM">
+                    <rect key="frame" x="30" y="632" width="354" height="200"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlertSuccess" translatesAutoresizingMaskIntoConstraints="NO" id="L5u-AA-AxO">
+                            <rect key="frame" x="133" y="36" width="88" height="88"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="88" id="4tG-zm-766"/>
+                                <constraint firstAttribute="height" constant="88" id="YZr-vX-gF3"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrong OTP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydb-Sn-pfa">
+                            <rect key="frame" x="8" y="140" width="338" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="1lN-Lm-Qam"/>
+                        <constraint firstItem="L5u-AA-AxO" firstAttribute="centerX" secondItem="a4h-7q-sbM" secondAttribute="centerX" id="6YO-Xc-Fi6"/>
+                        <constraint firstItem="Ydb-Sn-pfa" firstAttribute="leading" secondItem="a4h-7q-sbM" secondAttribute="leading" constant="8" id="EMm-kM-qqc"/>
+                        <constraint firstAttribute="trailing" secondItem="Ydb-Sn-pfa" secondAttribute="trailing" constant="8" id="F3W-PN-wHJ"/>
+                        <constraint firstItem="L5u-AA-AxO" firstAttribute="top" secondItem="a4h-7q-sbM" secondAttribute="top" constant="36" id="HPl-v8-Moc"/>
+                        <constraint firstAttribute="bottom" secondItem="Ydb-Sn-pfa" secondAttribute="bottom" constant="36" id="XFB-BR-Ds5"/>
+                        <constraint firstItem="Ydb-Sn-pfa" firstAttribute="top" secondItem="L5u-AA-AxO" secondAttribute="bottom" constant="16" id="x8W-0Y-AAX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.01" alpha="0.12" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="a4h-7q-sbM" secondAttribute="trailing" constant="30" id="6dt-3z-iZZ"/>
+                <constraint firstItem="a4h-7q-sbM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="VAF-7e-P4Z"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="a4h-7q-sbM" secondAttribute="bottom" constant="30" id="qgw-Js-Hs6"/>
+            </constraints>
+            <point key="canvasLocation" x="114" y="91"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AlertSuccess" width="88" height="88.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

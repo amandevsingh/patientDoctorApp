@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BSImagePicker (3.3.1)
+  - CalendarKit (1.1.1)
+  - DateToolsSwift (5.0.0)
+  - DropDown (2.3.13)
+  - FSCalendar (2.8.2)
+  - IQKeyboardManagerSwift (6.5.9)
+  - JGProgressHUD (2.2)
+  - Kingfisher (7.1.2)
+  - ObjectMapper (4.2.0)
+  - ProgressHUD (13.6)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - BSImagePicker (~> 3.1)
+  - CalendarKit
+  - DateToolsSwift
+  - DropDown
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - Kingfisher (~> 7.0)
+  - ObjectMapper
+  - ProgressHUD
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSImagePicker
+    - CalendarKit
+    - DateToolsSwift
+    - DropDown
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - Kingfisher
+    - ObjectMapper
+    - ProgressHUD
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  CalendarKit: 038224cb4e91aeb7b471b4159e7d632965d04288
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: eb47a5e65cd41c45894db2dd8f8aeb27ad489006
+
+COCOAPODS: 1.11.2

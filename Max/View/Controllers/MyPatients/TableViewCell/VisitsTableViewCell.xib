@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Proxima Nova Regular.otf">
+            <string>ProximaNova-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="VisitsTableViewCell" customModule="Max" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="0QS-jM-4g8">
+                        <rect key="frame" x="17" y="14" width="132" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 Sep’21  |  10:50 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaS-aC-HwV">
+                                <rect key="frame" x="0.0" y="0.0" width="132" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="6WT-SV-1fJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status: Upcoming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nup-Mu-fg7">
+                                <rect key="frame" x="0.0" y="24" width="132" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="EeZ-Fu-1Of"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
+                                <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AAppointmentForward" translatesAutoresizingMaskIntoConstraints="NO" id="VlB-dA-xGc">
+                        <rect key="frame" x="288" y="19" width="6" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="6" id="0pZ-zI-fO4"/>
+                            <constraint firstAttribute="height" constant="10" id="sFS-tU-xC1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZZ-o6-bu4">
+                        <rect key="frame" x="17" y="71" width="277" height="1"/>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="fIN-qc-KCG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VlB-dA-xGc" secondAttribute="trailing" constant="23" id="3D2-iD-RXm"/>
+                    <constraint firstItem="0QS-jM-4g8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="aLC-4q-9IO"/>
+                    <constraint firstAttribute="bottom" secondItem="lZZ-o6-bu4" secondAttribute="bottom" id="aWv-C5-EgS"/>
+                    <constraint firstItem="VlB-dA-xGc" firstAttribute="centerY" secondItem="FaS-aC-HwV" secondAttribute="centerY" id="b6C-Ga-7TE"/>
+                    <constraint firstItem="lZZ-o6-bu4" firstAttribute="leading" secondItem="0QS-jM-4g8" secondAttribute="leading" id="eku-L8-nxJ"/>
+                    <constraint firstItem="lZZ-o6-bu4" firstAttribute="trailing" secondItem="VlB-dA-xGc" secondAttribute="trailing" id="fjI-H7-GPa"/>
+                    <constraint firstItem="0QS-jM-4g8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="ldf-cv-nUo"/>
+                    <constraint firstAttribute="bottom" secondItem="0QS-jM-4g8" secondAttribute="bottom" constant="14" id="o8K-7M-EEt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="FaS-aC-HwV" id="kTL-iy-iHd"/>
+                <outlet property="statusLabel" destination="Nup-Mu-fg7" id="1XU-uU-RZz"/>
+            </connections>
+            <point key="canvasLocation" x="129.71014492753625" y="88.392857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AAppointmentForward" width="6" height="9"/>
+    </resources>
+</document>
