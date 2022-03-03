@@ -82,19 +82,19 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7E-HD-XSb">
-                                        <rect key="frame" x="16" y="60" width="295" height="14"/>
+                                        <rect key="frame" x="16" y="60" width="295" height="16.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                         <color key="textColor" red="0.0" green="0.21960784310000001" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Shubham Sharma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rO-z3-eOf">
-                                        <rect key="frame" x="16" y="74" width="295" height="16"/>
+                                        <rect key="frame" x="16" y="76.5" width="295" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.70196078429999997" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6gm-iU-ANu">
-                                        <rect key="frame" x="51" y="110" width="273" height="40"/>
+                                        <rect key="frame" x="49" y="115.5" width="277" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWV-g6-Xwi">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -120,13 +120,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, 26 Oct’21" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTb-YV-MLZ">
-                                                <rect key="frame" x="48" y="0.0" width="177" height="40"/>
+                                                <rect key="frame" x="48" y="0.0" width="181" height="40"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="24"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWU-w5-JLQ">
-                                                <rect key="frame" x="233" y="0.0" width="40" height="40"/>
+                                                <rect key="frame" x="237" y="0.0" width="40" height="40"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="GEm-cc-eVa"/>
@@ -151,7 +151,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycL-P0-TEo">
-                                        <rect key="frame" x="128.5" y="154" width="118" height="30"/>
+                                        <rect key="frame" x="128.5" y="159.5" width="118" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="118" id="4mH-Eo-pGP"/>
@@ -230,22 +230,22 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Iuq-Ho-Bc4">
-                                                            <rect key="frame" x="80" y="28" width="208" height="66"/>
+                                                            <rect key="frame" x="80" y="26" width="208" height="70.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Appointments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6k-Ue-o6w">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="208" height="14"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="208" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 PM - 4:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzh-NV-z8V">
-                                                                    <rect key="frame" x="0.0" y="16" width="208" height="12"/>
+                                                                    <rect key="frame" x="0.0" y="18.5" width="208" height="14"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                                     <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vuv-ke-XWJ">
-                                                                    <rect key="frame" x="0.0" y="30" width="208" height="36"/>
+                                                                    <rect key="frame" x="0.0" y="34.5" width="208" height="36"/>
                                                                     <subviews>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-G8-940">
                                                                             <rect key="frame" x="0.0" y="7" width="100" height="22"/>
@@ -415,14 +415,14 @@
                                 <rect key="frame" x="30" y="345" width="315" height="120"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="Edl-xb-8IC">
-                                        <rect key="frame" x="127.5" y="16" width="60" height="60"/>
+                                        <rect key="frame" x="127.5" y="13" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="2EG-3G-oNr"/>
                                             <constraint firstAttribute="width" secondItem="Edl-xb-8IC" secondAttribute="height" multiplier="1:1" id="uEx-xG-6NP"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Appointment Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAn-Wh-Foj">
-                                        <rect key="frame" x="20" y="92" width="275" height="16"/>
+                                        <rect key="frame" x="20" y="89" width="275" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -542,7 +542,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IPD Patients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kw2-tb-cBP">
-                                        <rect key="frame" x="144" y="14" width="87.5" height="16"/>
+                                        <rect key="frame" x="143.5" y="12.5" width="88.5" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.70196078429999997" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -565,13 +565,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="72"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Saket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKX-kK-Mj4">
-                                                <rect key="frame" x="10" y="16" width="305" height="14"/>
+                                                <rect key="frame" x="10" y="16" width="305" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, 26 Oct’21" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O3C-ed-LSx">
-                                                <rect key="frame" x="10" y="32" width="317" height="16"/>
+                                                <rect key="frame" x="10" y="34.5" width="317" height="19"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -596,7 +596,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select patients to view their reports" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDm-TI-pMJ">
-                                                    <rect key="frame" x="10" y="10" width="217" height="14"/>
+                                                    <rect key="frame" x="10" y="10" width="221.5" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -649,7 +649,7 @@
                                                                     </constraints>
                                                                 </stackView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Appointments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjJ-WP-weC">
-                                                                    <rect key="frame" x="69" y="20" width="106" height="20"/>
+                                                                    <rect key="frame" x="69" y="20" width="107.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="Zn1-Ml-D7N"/>
                                                                     </constraints>
@@ -658,7 +658,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(30yrs, M)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IB2-al-f3a">
-                                                                    <rect key="frame" x="177" y="23" width="102" height="14"/>
+                                                                    <rect key="frame" x="178.5" y="22" width="100.5" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -844,13 +844,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="236"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Saket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g00-dP-gah">
-                                                <rect key="frame" x="20" y="16" width="295" height="14"/>
+                                                <rect key="frame" x="20" y="16" width="295" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, 26 Oct’21" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDX-uQ-K0n">
-                                                <rect key="frame" x="20" y="32" width="118" height="16"/>
+                                                <rect key="frame" x="20" y="34.5" width="121" height="19"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -876,13 +876,13 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqN-7l-90e">
-                                                                    <rect key="frame" x="2" y="15" width="95" height="12"/>
+                                                                    <rect key="frame" x="2" y="15" width="95" height="14"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checked-In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asA-ua-gms">
-                                                                    <rect key="frame" x="2" y="31" width="95" height="12"/>
+                                                                    <rect key="frame" x="2" y="33" width="95" height="14"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -941,7 +941,7 @@
                                                 <rect key="frame" x="0.0" y="136" width="335" height="100"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your practice is paused temporarily" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5th-aa-HTs">
-                                                        <rect key="frame" x="20" y="22" width="307" height="14"/>
+                                                        <rect key="frame" x="20" y="19.5" width="307" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -990,7 +990,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(10:00 AM - 12:00 PM)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5o-Bn-kqa">
-                                                <rect key="frame" x="146" y="34" width="124" height="12"/>
+                                                <rect key="frame" x="149" y="37" width="124" height="14"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="124" id="7kG-TB-X33"/>
                                                 </constraints>
@@ -1099,7 +1099,7 @@
                                                                     </constraints>
                                                                 </stackView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Appointments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUz-cB-AZc">
-                                                                    <rect key="frame" x="69" y="16" width="106" height="20"/>
+                                                                    <rect key="frame" x="69" y="16" width="107.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="Zk2-AG-H5d"/>
                                                                     </constraints>
@@ -1108,7 +1108,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Eb-d7-0XE">
-                                                                    <rect key="frame" x="69" y="40" width="51.5" height="20"/>
+                                                                    <rect key="frame" x="69" y="40" width="52.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="CBb-GC-JqS"/>
                                                                     </constraints>
@@ -1128,7 +1128,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(30yrs, M)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L19-0z-wzc">
-                                                                    <rect key="frame" x="177" y="19" width="59.5" height="14"/>
+                                                                    <rect key="frame" x="178.5" y="18" width="61.5" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -1288,7 +1288,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OPD Patients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyk-qP-lCv">
-                                        <rect key="frame" x="140" y="14" width="95.5" height="16"/>
+                                        <rect key="frame" x="139.5" y="12.5" width="96.5" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.70196078429999997" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1390,7 +1390,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vansh Pawar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nii-Mt-W9C">
-                                        <rect key="frame" x="128.5" y="12" width="81" height="20"/>
+                                        <rect key="frame" x="128" y="12" width="81.5" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="cDY-A7-e1V"/>
                                         </constraints>
@@ -1399,19 +1399,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(30yrs, M)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzs-C2-qx0">
-                                        <rect key="frame" x="211.5" y="15" width="59.5" height="14"/>
+                                        <rect key="frame" x="211.5" y="14" width="61.5" height="16.5"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Max ID: EHPG.1537383  |" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jib-sf-aRw">
-                                        <rect key="frame" x="102" y="58" width="171" height="16"/>
+                                        <rect key="frame" x="96" y="58" width="183" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXK-pY-fT0">
-                                        <rect key="frame" x="281" y="55.5" width="40" height="21"/>
+                                        <rect key="frame" x="287" y="57" width="40" height="21"/>
                                         <color key="backgroundColor" red="0.13725490200000001" green="0.73725490199999999" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="2YW-9o-zAW"/>
@@ -1493,7 +1493,7 @@
                                             <rect key="frame" x="20" y="20" width="335" height="233"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appointment Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hsg-kw-td9">
-                                                    <rect key="frame" x="16" y="0.0" width="128.5" height="46"/>
+                                                    <rect key="frame" x="16" y="0.0" width="127.5" height="46"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="46" id="BaD-zY-8sr"/>
                                                     </constraints>
@@ -1505,10 +1505,10 @@
                                                     <rect key="frame" x="0.0" y="46" width="335" height="196"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="9UX-TU-mMX">
-                                                            <rect key="frame" x="20" y="16" width="79" height="70"/>
+                                                            <rect key="frame" x="20" y="16" width="80.5" height="70"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date &amp; Time:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJT-gv-lwq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="79" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="80.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="hRg-zy-Mtd"/>
                                                                     </constraints>
@@ -1517,7 +1517,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checked In:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZtB-JY-gCv">
-                                                                    <rect key="frame" x="0.0" y="25" width="79" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="25" width="80.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="87h-gh-pcl"/>
                                                                     </constraints>
@@ -1526,7 +1526,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Visit:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJa-mG-PJ3">
-                                                                    <rect key="frame" x="0.0" y="50" width="79" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="50" width="80.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="5I4-ug-8UC"/>
                                                                     </constraints>
@@ -1537,10 +1537,10 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="NpI-Xm-9wH">
-                                                            <rect key="frame" x="189" y="16" width="126" height="70"/>
+                                                            <rect key="frame" x="180" y="16" width="135" height="70"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 Sep’21  |  12:20 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSU-t9-J7I">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="126" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="135" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="n1D-Kw-716"/>
                                                                     </constraints>
@@ -1549,7 +1549,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:18 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmq-K9-oAX">
-                                                                    <rect key="frame" x="0.0" y="25" width="126" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="25" width="135" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="0kl-Q7-jF3"/>
                                                                     </constraints>
@@ -1558,7 +1558,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Sep’21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiG-5b-yP1">
-                                                                    <rect key="frame" x="0.0" y="50" width="126" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="50" width="135" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="TCC-ZW-svu"/>
                                                                     </constraints>
@@ -1732,7 +1732,7 @@
                                             <rect key="frame" x="20" y="339" width="335" height="249"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Records Uploaded by Patient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SH4-yd-ue5">
-                                                    <rect key="frame" x="16" y="0.0" width="182" height="46"/>
+                                                    <rect key="frame" x="16" y="0.0" width="184.5" height="46"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="46" id="9La-Bm-LEt"/>
                                                     </constraints>
@@ -1760,7 +1760,7 @@
                                                     <rect key="frame" x="0.0" y="49" width="335" height="200"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 Prescriptions and 2 Reports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6a-di-pq2">
-                                                            <rect key="frame" x="20" y="15" width="180.5" height="20"/>
+                                                            <rect key="frame" x="20" y="15" width="186.5" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="S4H-nh-UfO"/>
                                                             </constraints>
@@ -1797,7 +1797,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Issues" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hh-CD-9cl">
-                                                            <rect key="frame" x="20" y="67" width="82.5" height="20"/>
+                                                            <rect key="frame" x="20" y="67" width="84.5" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="aUe-Xr-VH9"/>
                                                             </constraints>
@@ -1806,7 +1806,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoV-RR-HMD">
-                                                            <rect key="frame" x="20" y="89" width="295" height="24"/>
+                                                            <rect key="frame" x="20" y="89" width="295" height="28"/>
                                                             <string key="text">Fever from 3 days. Nausea and vomiting too. Took
 crocin but no improvement</string>
                                                             <fontDescription key="fontDescription" name="ProximaNova-LightIt" family="Proxima Nova" pointSize="12"/>
@@ -1814,13 +1814,13 @@ crocin but no improvement</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ADashline" translatesAutoresizingMaskIntoConstraints="NO" id="kbr-mu-SIo">
-                                                            <rect key="frame" x="20" y="127" width="295" height="1"/>
+                                                            <rect key="frame" x="20" y="131" width="295" height="1"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="epT-Ev-4ve"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Case Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXV-pZ-8ho">
-                                                            <rect key="frame" x="20" y="137" width="92.5" height="20"/>
+                                                            <rect key="frame" x="20" y="141" width="96" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="UPj-rm-Hvh"/>
                                                             </constraints>
@@ -1829,7 +1829,7 @@ crocin but no improvement</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gnA-c8-xYb">
-                                                            <rect key="frame" x="265" y="135" width="50" height="24"/>
+                                                            <rect key="frame" x="265" y="139" width="50" height="24"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="Ok9-c9-dxS"/>
                                                                 <constraint firstAttribute="height" constant="24" id="RxQ-6f-e4V"/>
@@ -1851,7 +1851,7 @@ crocin but no improvement</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prepared by: VC Back Office Team" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JK-Tp-hAh">
-                                                            <rect key="frame" x="20" y="159" width="181" height="12"/>
+                                                            <rect key="frame" x="20" y="163" width="186" height="14"/>
                                                             <fontDescription key="fontDescription" name="ProximaNova-LightIt" family="Proxima Nova" pointSize="12"/>
                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1942,10 +1942,10 @@ crocin but no improvement</string>
                                                     <rect key="frame" x="0.0" y="47" width="335" height="125"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="i7D-ys-Za1">
-                                                            <rect key="frame" x="20" y="15" width="210.5" height="90"/>
+                                                            <rect key="frame" x="20" y="15" width="218.5" height="90"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Prescription (1 Nov’21)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUd-sI-keW">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="210.5" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="218.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="Tl8-eM-sTs"/>
                                                                     </constraints>
@@ -1954,7 +1954,7 @@ crocin but no improvement</string>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Report (1 Nov’21)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qp-Db-L3j">
-                                                                    <rect key="frame" x="0.0" y="35" width="210.5" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="35" width="218.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="jL1-4q-DjR"/>
                                                                     </constraints>
@@ -1963,7 +1963,7 @@ crocin but no improvement</string>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Past 4 Prescriptions and 2 Reports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ME0-go-yR8">
-                                                                    <rect key="frame" x="0.0" y="70" width="210.5" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="70" width="218.5" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="cA3-ay-I1o"/>
                                                                     </constraints>
@@ -2354,7 +2354,7 @@ crocin but no improvement</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uploaded Documents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmw-Sn-K0h">
-                                        <rect key="frame" x="109.5" y="14" width="156" height="16"/>
+                                        <rect key="frame" x="109.5" y="12.5" width="156.5" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.73725490199999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2545,16 +2545,16 @@ crocin but no improvement</string>
                                 <rect key="frame" x="0.0" y="44" width="375" height="0.0"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="K7J-Hb-yTo">
-                                        <rect key="frame" x="92.5" y="-166" width="190.5" height="16"/>
+                                        <rect key="frame" x="86.5" y="-169" width="202.5" height="19"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaxID: EHPG.1537383" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URk-Eo-qSK">
-                                                <rect key="frame" x="0.0" y="0.0" width="155" height="16"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="166" height="19"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="16"/>
                                                 <color key="textColor" red="0.086274509803921567" green="0.23137254901960785" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  VIP  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuc-4t-uO8">
-                                                <rect key="frame" x="165" y="0.0" width="25.5" height="16"/>
+                                                <rect key="frame" x="176" y="0.0" width="26.5" height="19"/>
                                                 <color key="backgroundColor" red="0.13725490196078433" green="0.73725490196078436" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="10"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -2574,13 +2574,13 @@ crocin but no improvement</string>
                                                 <rect key="frame" x="5" y="5" width="325" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8us-QR-6Uk">
-                                                        <rect key="frame" x="16" y="15" width="293" height="12"/>
+                                                        <rect key="frame" x="16" y="15" width="293" height="14"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bB-M2-jeQ">
-                                                        <rect key="frame" x="16" y="39" width="180" height="45"/>
+                                                        <rect key="frame" x="16" y="41" width="180" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="5Ea-kP-Ss2"/>
                                                             <constraint firstAttribute="width" constant="180" id="Cqk-1Q-SIj"/>
@@ -2606,7 +2606,7 @@ crocin but no improvement</string>
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="POV-uS-Vdx">
-                                                        <rect key="frame" x="164" y="58.5" width="10" height="6"/>
+                                                        <rect key="frame" x="164" y="60.5" width="10" height="6"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="10" id="5n7-uT-vSu"/>
                                                             <constraint firstAttribute="height" constant="6" id="yg0-DC-F7Z"/>
@@ -2703,7 +2703,7 @@ crocin but no improvement</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wz-3A-CCP">
-                                        <rect key="frame" x="124.5" y="14" width="126.5" height="16"/>
+                                        <rect key="frame" x="124.5" y="12.5" width="126" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.73725490199999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2758,13 +2758,13 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="0.0" width="335" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hospital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY9-FF-uMV">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zd-1b-9xP">
-                                                                    <rect key="frame" x="16" y="40" width="303" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="303" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="DRR-sD-xkf"/>
                                                                     </constraints>
@@ -2789,7 +2789,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </button>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="zPC-HR-WfX">
-                                                                    <rect key="frame" x="287" y="59.5" width="10" height="6"/>
+                                                                    <rect key="frame" x="287" y="62" width="10" height="6"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="10" id="Zrf-Ka-xon"/>
                                                                         <constraint firstAttribute="height" constant="6" id="rcn-ky-bfg"/>
@@ -2813,13 +2813,13 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="94" width="335" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appointment Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IL-r2-kl8">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOe-7K-Ete">
-                                                                    <rect key="frame" x="16" y="40" width="303" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="303" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="bC4-mW-nDN"/>
                                                                     </constraints>
@@ -2844,7 +2844,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </button>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="oIE-au-Zcu">
-                                                                    <rect key="frame" x="287" y="59.5" width="10" height="6"/>
+                                                                    <rect key="frame" x="287" y="62" width="10" height="6"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="10" id="fMQ-4U-ZVR"/>
                                                                         <constraint firstAttribute="height" constant="6" id="sdV-Wj-ZUk"/>
@@ -2868,13 +2868,13 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="188" width="335" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Appointment Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5R-LU-njj">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-5w-8DJ">
-                                                                    <rect key="frame" x="16" y="40" width="303" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="303" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="41C-8F-gAK"/>
                                                                     </constraints>
@@ -2899,7 +2899,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </button>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppointmentDate" translatesAutoresizingMaskIntoConstraints="NO" id="egG-px-DIP">
-                                                                    <rect key="frame" x="278" y="53" width="19" height="19"/>
+                                                                    <rect key="frame" x="278" y="55.5" width="19" height="19"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="19" id="e2w-nN-VWQ"/>
                                                                         <constraint firstAttribute="width" constant="19" id="uiq-Ln-NWf"/>
@@ -2923,13 +2923,13 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="282" width="335" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="̉Appointment Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eht-Rk-Uq5">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6E-OH-UsF">
-                                                                    <rect key="frame" x="16" y="40" width="303" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="303" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="spn-e5-uYX"/>
                                                                     </constraints>
@@ -2954,7 +2954,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </button>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppointmentTime" translatesAutoresizingMaskIntoConstraints="NO" id="tYF-fo-77L">
-                                                                    <rect key="frame" x="278" y="53" width="19" height="19"/>
+                                                                    <rect key="frame" x="278" y="55.5" width="19" height="19"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="19" id="Ut4-UQ-gFx"/>
                                                                         <constraint firstAttribute="height" constant="19" id="de3-FH-bS0"/>
@@ -3037,7 +3037,7 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="0.0" width="335" height="110"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzI-Gx-Rtf">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -3052,7 +3052,7 @@ crocin but no improvement</string>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <textField opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lhd-o3-oJd">
-                                                                    <rect key="frame" x="16" y="40" width="265" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="265" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="jhG-lL-w7m"/>
                                                                     </constraints>
@@ -3064,7 +3064,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </textField>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="az6-ZH-Aqf">
-                                                                    <rect key="frame" x="289" y="47.5" width="30" height="30"/>
+                                                                    <rect key="frame" x="289" y="50" width="30" height="30"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="30" id="2z5-IQ-Psd"/>
                                                                         <constraint firstAttribute="height" constant="30" id="FvH-ol-fO8"/>
@@ -3097,13 +3097,13 @@ crocin but no improvement</string>
                                                             <rect key="frame" x="0.0" y="110" width="335" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Patient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SP6-fM-uz2">
-                                                                    <rect key="frame" x="16" y="14" width="303" height="14"/>
+                                                                    <rect key="frame" x="16" y="14" width="303" height="16.5"/>
                                                                     <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                     <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsg-Ic-qYc">
-                                                                    <rect key="frame" x="16" y="40" width="303" height="45"/>
+                                                                    <rect key="frame" x="16" y="42.5" width="303" height="45"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="45" id="I2K-Ik-Jnb"/>
                                                                     </constraints>
@@ -3128,7 +3128,7 @@ crocin but no improvement</string>
                                                                     </connections>
                                                                 </button>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="3cP-An-f1E">
-                                                                    <rect key="frame" x="287" y="59.5" width="10" height="6"/>
+                                                                    <rect key="frame" x="287" y="62" width="10" height="6"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="6" id="8Dh-Xk-yrD"/>
                                                                         <constraint firstAttribute="width" constant="10" id="xYi-JI-bsM"/>
@@ -3160,13 +3160,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="0.0" width="273" height="70"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhF-7h-pIb">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6i-f9-Fzg">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <subviews>
                                                                                 <textField opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jNB-od-v9G">
                                                                                     <rect key="frame" x="16" y="0.0" width="241" height="45"/>
@@ -3214,13 +3214,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="86" width="273" height="70"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgv-WL-DIb">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abT-dU-4SR">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <subviews>
                                                                                 <textField opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bEs-Ze-faR">
                                                                                     <rect key="frame" x="16" y="0.0" width="241" height="45"/>
@@ -3268,13 +3268,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="172" width="273" height="70"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlB-0K-v1o">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJa-o0-nqy">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <subviews>
                                                                                 <textField opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0c5-aJ-upZ">
                                                                                     <rect key="frame" x="16" y="0.0" width="241" height="45"/>
@@ -3322,13 +3322,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="258" width="273" height="68"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZb-qJ-buY">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Lv-KF-eeb">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="45" id="D1y-aj-zFD"/>
@@ -3354,7 +3354,7 @@ crocin but no improvement</string>
                                                                             </connections>
                                                                         </button>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="FUg-ah-BbD">
-                                                                            <rect key="frame" x="247" y="41.5" width="10" height="6"/>
+                                                                            <rect key="frame" x="247" y="44" width="10" height="6"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="10" id="70T-bc-Se7"/>
                                                                                 <constraint firstAttribute="height" constant="6" id="K4b-3d-z1O"/>
@@ -3378,13 +3378,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="342" width="273" height="68"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D.O.B*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJ1-sh-pRJ">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwb-6a-3cm">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="45" id="yEO-DT-iiF"/>
@@ -3410,7 +3410,7 @@ crocin but no improvement</string>
                                                                             </connections>
                                                                         </button>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppointmentDate" translatesAutoresizingMaskIntoConstraints="NO" id="4gU-BK-8BF">
-                                                                            <rect key="frame" x="238" y="35" width="19" height="19"/>
+                                                                            <rect key="frame" x="238" y="37.5" width="19" height="19"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="19" id="MW3-sB-73s"/>
                                                                                 <constraint firstAttribute="width" constant="19" id="fgT-yR-Oqh"/>
@@ -3434,13 +3434,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="426" width="273" height="68"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nationality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUO-AH-bP1">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6A-0z-gHy">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="45" id="FnO-8O-Ceu"/>
@@ -3466,7 +3466,7 @@ crocin but no improvement</string>
                                                                             </connections>
                                                                         </button>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="6Bv-q4-GDG">
-                                                                            <rect key="frame" x="247" y="41.5" width="10" height="6"/>
+                                                                            <rect key="frame" x="247" y="44" width="10" height="6"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="10" id="ane-oS-82M"/>
                                                                                 <constraint firstAttribute="height" constant="6" id="csk-UI-04U"/>
@@ -3490,13 +3490,13 @@ crocin but no improvement</string>
                                                                     <rect key="frame" x="0.0" y="510" width="273" height="70"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email ID*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg5-Je-f9g">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="273" height="16.5"/>
                                                                             <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                                             <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWd-P4-iWF">
-                                                                            <rect key="frame" x="0.0" y="22" width="273" height="45"/>
+                                                                            <rect key="frame" x="0.0" y="24.5" width="273" height="45"/>
                                                                             <subviews>
                                                                                 <textField opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Email ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rEj-ui-FWt">
                                                                                     <rect key="frame" x="16" y="0.0" width="241" height="45"/>
@@ -3711,7 +3711,7 @@ crocin but no improvement</string>
                                 <rect key="frame" x="20" y="98" width="335" height="549"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join Video Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2r-Ye-mTY">
-                                        <rect key="frame" x="20" y="12" width="263" height="16"/>
+                                        <rect key="frame" x="20" y="12" width="263" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3798,7 +3798,7 @@ crocin but no improvement</string>
                                         </constraints>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8qB-SK-mMj">
-                                        <rect key="frame" x="20" y="44" width="295" height="329"/>
+                                        <rect key="frame" x="20" y="47" width="295" height="326"/>
                                         <color key="backgroundColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -3870,13 +3870,13 @@ crocin but no improvement</string>
                                 <rect key="frame" x="20" y="451" width="335" height="196"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call Patient" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfm-5H-j1w">
-                                        <rect key="frame" x="24" y="22" width="259" height="16"/>
+                                        <rect key="frame" x="24" y="22" width="259" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="7T2-TX-i1e">
-                                        <rect key="frame" x="24" y="55" width="287" height="110"/>
+                                        <rect key="frame" x="24" y="58" width="287" height="110"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgA-FI-DPe">
                                                 <rect key="frame" x="0.0" y="0.0" width="287" height="46"/>
@@ -3943,7 +3943,7 @@ crocin but no improvement</string>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-mC-ebk">
-                                        <rect key="frame" x="291" y="8" width="44" height="44"/>
+                                        <rect key="frame" x="291" y="9.5" width="44" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="44" id="57c-xa-zLt"/>
                                             <constraint firstAttribute="height" constant="44" id="JSp-T7-VIq"/>
@@ -4018,25 +4018,25 @@ crocin but no improvement</string>
                                 <rect key="frame" x="20" y="337" width="335" height="310"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reschedule Appointment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhV-LU-95e">
-                                        <rect key="frame" x="24" y="19" width="287" height="16"/>
+                                        <rect key="frame" x="24" y="19" width="287" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oLU-hn-LmQ">
-                                        <rect key="frame" x="5" y="40" width="325" height="188"/>
+                                        <rect key="frame" x="5" y="43" width="325" height="188"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXV-OP-VnH">
                                                 <rect key="frame" x="0.0" y="0.0" width="325" height="94"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehW-Mx-tOa">
-                                                        <rect key="frame" x="16" y="14" width="293" height="14"/>
+                                                        <rect key="frame" x="16" y="14" width="293" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdL-x9-0z5">
-                                                        <rect key="frame" x="16" y="40" width="293" height="45"/>
+                                                        <rect key="frame" x="16" y="42.5" width="293" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="IGj-hR-YBt"/>
                                                         </constraints>
@@ -4061,7 +4061,7 @@ crocin but no improvement</string>
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppointmentDate" translatesAutoresizingMaskIntoConstraints="NO" id="BuF-sx-qgk">
-                                                        <rect key="frame" x="268" y="53" width="19" height="19"/>
+                                                        <rect key="frame" x="268" y="55.5" width="19" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="19" id="HA5-zJ-3G8"/>
                                                             <constraint firstAttribute="height" constant="19" id="K4p-so-Z6R"/>
@@ -4085,13 +4085,13 @@ crocin but no improvement</string>
                                                 <rect key="frame" x="0.0" y="94" width="325" height="94"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKD-nq-4u6">
-                                                        <rect key="frame" x="16" y="14" width="293" height="14"/>
+                                                        <rect key="frame" x="16" y="14" width="293" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UR-Vh-Qby">
-                                                        <rect key="frame" x="16" y="40" width="293" height="45"/>
+                                                        <rect key="frame" x="16" y="42.5" width="293" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="FdE-uE-wWc"/>
                                                         </constraints>
@@ -4116,7 +4116,7 @@ crocin but no improvement</string>
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppointmentTime" translatesAutoresizingMaskIntoConstraints="NO" id="xLS-bU-GVq">
-                                                        <rect key="frame" x="268" y="53" width="19" height="19"/>
+                                                        <rect key="frame" x="268" y="55.5" width="19" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="dFZ-DT-xa5"/>
                                                             <constraint firstAttribute="width" constant="19" id="gPD-v1-srf"/>
@@ -4279,7 +4279,7 @@ crocin but no improvement</string>
                                 <rect key="frame" x="20" y="384" width="335" height="263"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Show" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ux7-AQ-ITC">
-                                        <rect key="frame" x="24" y="19" width="287" height="16"/>
+                                        <rect key="frame" x="24" y="19" width="287" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -4358,10 +4358,10 @@ crocin but no improvement</string>
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmd-GR-C9H">
-                                        <rect key="frame" x="18" y="47" width="299" height="73"/>
+                                        <rect key="frame" x="18" y="50" width="299" height="73"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vansh Pawar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLX-fM-fPk">
-                                                <rect key="frame" x="21" y="16" width="81" height="20"/>
+                                                <rect key="frame" x="21" y="16" width="81.5" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="PX1-0b-l6i"/>
                                                 </constraints>
@@ -4370,13 +4370,13 @@ crocin but no improvement</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(30yrs, M)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGf-4R-FX0">
-                                                <rect key="frame" x="107" y="19" width="184" height="14"/>
+                                                <rect key="frame" x="107.5" y="18" width="183.5" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Time: 12:20 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkW-ly-gHB">
-                                                <rect key="frame" x="21" y="34" width="270" height="20"/>
+                                                <rect key="frame" x="21" y="35.5" width="270" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="R24-Py-S8U"/>
                                                 </constraints>
@@ -4410,7 +4410,7 @@ crocin but no improvement</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1y-Tz-8Lg">
-                                        <rect key="frame" x="18" y="130" width="299" height="40"/>
+                                        <rect key="frame" x="18" y="133" width="299" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Ib1-zA-Hrz"/>
                                         </constraints>
@@ -4504,22 +4504,22 @@ this patient “No Show”?</string>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jFd-Oc-wWA">
-                                                <rect key="frame" x="20" y="20" width="129.5" height="52"/>
+                                                <rect key="frame" x="20" y="20" width="131" height="59.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xE0-R8-J56">
-                                                        <rect key="frame" x="0.0" y="0.0" width="129.5" height="14"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="131" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.21960784310000001" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr Shubham Sharma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMs-gr-rzN">
-                                                        <rect key="frame" x="0.0" y="19" width="129.5" height="14"/>
+                                                        <rect key="frame" x="0.0" y="21.5" width="131" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MBBS, USMLE (USA)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etC-Bc-ty0">
-                                                        <rect key="frame" x="0.0" y="38" width="129.5" height="14"/>
+                                                        <rect key="frame" x="0.0" y="43" width="131" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.21960784310000001" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -4527,7 +4527,7 @@ this patient “No Show”?</string>
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3p-9G-R9S">
-                                                <rect key="frame" x="317" y="27" width="38" height="38"/>
+                                                <rect key="frame" x="317" y="31" width="38" height="38"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="38" id="GPM-ch-QQu"/>
                                                     <constraint firstAttribute="width" constant="38" id="S6x-sU-feZ"/>
@@ -4559,7 +4559,7 @@ this patient “No Show”?</string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTz-5c-eCL">
-                                                        <rect key="frame" x="0.0" y="0.0" width="65" height="40"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="65.5" height="40"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="leftArrow" title="Sep" imagePadding="5">
                                                             <fontDescription key="titleFontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                             <color key="baseForegroundColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -4723,7 +4723,7 @@ this patient “No Show”?</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Records" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-5v-frH">
-                                        <rect key="frame" x="141.5" y="14" width="92.5" height="16"/>
+                                        <rect key="frame" x="140" y="12.5" width="95.5" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.73725490199999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -4937,13 +4937,13 @@ this patient “No Show”?</string>
                                                 <rect key="frame" x="5" y="5" width="325" height="120"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDl-gk-6rO">
-                                                        <rect key="frame" x="16" y="15" width="293" height="12"/>
+                                                        <rect key="frame" x="16" y="15" width="293" height="14"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                         <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bd3-Y0-4hh">
-                                                        <rect key="frame" x="16" y="39" width="180" height="45"/>
+                                                        <rect key="frame" x="16" y="41" width="180" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="KVe-fW-5Mf"/>
                                                             <constraint firstAttribute="width" constant="180" id="a3O-7h-uah"/>
@@ -4969,7 +4969,7 @@ this patient “No Show”?</string>
                                                         </connections>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGreenDropDown" translatesAutoresizingMaskIntoConstraints="NO" id="DAA-re-gjY">
-                                                        <rect key="frame" x="164" y="58.5" width="10" height="6"/>
+                                                        <rect key="frame" x="164" y="60.5" width="10" height="6"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="6" id="W0F-Q4-zpm"/>
                                                             <constraint firstAttribute="width" constant="10" id="y4v-Xa-UcG"/>
@@ -5068,7 +5068,7 @@ this patient “No Show”?</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGF-oY-HLH">
-                                        <rect key="frame" x="173" y="14" width="29" height="16"/>
+                                        <rect key="frame" x="173" y="12.5" width="29" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.13725490200000001" green="0.73725490199999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -5151,13 +5151,13 @@ this patient “No Show”?</string>
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="54"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Doctor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBo-A9-s8p">
-                                                <rect key="frame" x="20" y="20" width="97" height="16"/>
+                                                <rect key="frame" x="20" y="20" width="98" height="19"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                                 <color key="textColor" red="0.086274509799999996" green="0.23137254900000001" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQu-2F-42d">
-                                                <rect key="frame" x="300" y="20.5" width="15" height="15"/>
+                                                <rect key="frame" x="300" y="22" width="15" height="15"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="15" id="EvF-bO-dMo"/>
                                                     <constraint firstAttribute="width" constant="15" id="x4J-zP-VFx"/>
@@ -5450,7 +5450,7 @@ this patient “No Show”?</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reschedule Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9g-nt-ncO">
-                                        <rect key="frame" x="97.5" y="14" width="180.5" height="16"/>
+                                        <rect key="frame" x="97" y="12.5" width="181" height="19"/>
                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="16"/>
                                         <color key="textColor" red="0.20000000000000001" green="0.70196078429999997" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -5492,22 +5492,22 @@ this patient “No Show”?</string>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hR0-jL-onw">
-                                        <rect key="frame" x="86" y="25.5" width="228" height="47"/>
+                                        <rect key="frame" x="86" y="22.5" width="228" height="53.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Abhishek Sharma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUp-Hz-xtD">
-                                                <rect key="frame" x="0.0" y="0.0" width="131" height="14"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="131.5" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="General Physician &amp; Diabetes Speciality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t6a-oq-d7s">
-                                                <rect key="frame" x="0.0" y="19" width="195" height="11"/>
+                                                <rect key="frame" x="0.0" y="21.5" width="196" height="13"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="11"/>
                                                 <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MBBS, MD  |  Experience: 23+ yrs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzG-Ym-Z3M">
-                                                <rect key="frame" x="0.0" y="35" width="174" height="12"/>
+                                                <rect key="frame" x="0.0" y="39.5" width="183" height="14"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                 <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -5515,7 +5515,7 @@ this patient “No Show”?</string>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4o-Fs-AU9">
-                                        <rect key="frame" x="17" y="92.5" width="297" height="0.5"/>
+                                        <rect key="frame" x="17" y="96" width="297" height="0.5"/>
                                         <color key="backgroundColor" red="0.10980392156862745" green="0.23529411764705882" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="0.5" id="VOz-pY-Ex5"/>
@@ -5525,16 +5525,16 @@ this patient “No Show”?</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="lDT-Pp-mmA">
-                                        <rect key="frame" x="17" y="108" width="297" height="31"/>
+                                        <rect key="frame" x="17" y="111.5" width="297" height="35.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Appointment Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiy-Wo-49C">
-                                                <rect key="frame" x="0.0" y="0.0" width="297" height="12"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="297" height="14"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                 <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday, 23 Sep’21, 05:30 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sd-SG-jZD">
-                                                <rect key="frame" x="0.0" y="17" width="297" height="14"/>
+                                                <rect key="frame" x="0.0" y="19" width="297" height="16.5"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -5586,16 +5586,16 @@ this patient “No Show”?</string>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RFf-ok-T00">
-                                                <rect key="frame" x="50" y="20.5" width="190" height="29"/>
+                                                <rect key="frame" x="50" y="18.5" width="198" height="33"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Consultation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1F-9y-h5u">
-                                                        <rect key="frame" x="0.0" y="0.0" width="190" height="12"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="198" height="14"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Slots (4 PM - 6 PM)  |  Fee: Rs 800 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5H-ag-gfc">
-                                                        <rect key="frame" x="0.0" y="17" width="190" height="12"/>
+                                                        <rect key="frame" x="0.0" y="19" width="198" height="14"/>
                                                         <fontDescription key="fontDescription" name="ProximaNova-Regular" family="Proxima Nova" pointSize="12"/>
                                                         <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -5603,7 +5603,7 @@ this patient “No Show”?</string>
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBQ-cv-74L">
-                                                <rect key="frame" x="307" y="21.5" width="10" height="10"/>
+                                                <rect key="frame" x="307" y="20.5" width="10" height="10"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="10" id="ODF-VV-j4d"/>
                                                     <constraint firstAttribute="height" constant="10" id="R4S-s3-qe6"/>
@@ -5643,12 +5643,38 @@ this patient “No Show”?</string>
                                                             <rect key="frame" x="0.0" y="0.0" width="111" height="62"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOg-qj-oeJ">
-                                                                    <rect key="frame" x="2" y="14" width="106" height="12"/>
-                                                                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
-                                                                    <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YGb-0V-heG">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="110" height="62"/>
+                                                                    <subviews>
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XLd-EO-Luj">
+                                                                            <rect key="frame" x="0.0" y="11.5" width="110" height="39"/>
+                                                                            <subviews>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOg-qj-oeJ">
+                                                                                    <rect key="frame" x="39" y="0.0" width="32.5" height="14"/>
+                                                                                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
+                                                                                    <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 Slots" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOz-zb-eKT">
+                                                                                    <rect key="frame" x="33" y="19" width="44" height="20"/>
+                                                                                    <constraints>
+                                                                                        <constraint firstAttribute="height" constant="20" id="L4k-uP-kH6"/>
+                                                                                    </constraints>
+                                                                                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
+                                                                                    <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    <nil key="highlightedColor"/>
+                                                                                </label>
+                                                                            </subviews>
+                                                                        </stackView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                    <constraints>
+                                                                        <constraint firstItem="XLd-EO-Luj" firstAttribute="centerX" secondItem="YGb-0V-heG" secondAttribute="centerX" id="0As-y6-k9a"/>
+                                                                        <constraint firstItem="XLd-EO-Luj" firstAttribute="leading" secondItem="YGb-0V-heG" secondAttribute="leading" id="5zC-Wa-na7"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="XLd-EO-Luj" secondAttribute="trailing" id="d5o-YB-74i"/>
+                                                                        <constraint firstItem="XLd-EO-Luj" firstAttribute="centerY" secondItem="YGb-0V-heG" secondAttribute="centerY" id="tUL-jp-YRW"/>
+                                                                    </constraints>
+                                                                </view>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xk7-XU-YDs">
                                                                     <rect key="frame" x="110" y="-0.5" width="1" height="63"/>
                                                                     <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -5657,26 +5683,15 @@ this patient “No Show”?</string>
                                                                         <constraint firstAttribute="width" constant="1" id="jw5-48-sQd"/>
                                                                     </constraints>
                                                                 </view>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 Slots" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOz-zb-eKT">
-                                                                    <rect key="frame" x="2" y="31" width="107" height="20"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="20" id="L4k-uP-kH6"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" name="ProximaNova-Semibold" family="Proxima Nova" pointSize="12"/>
-                                                                    <color key="textColor" red="0.0" green="0.2196078431372549" blue="0.47058823529411764" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
-                                                                <constraint firstItem="Xk7-XU-YDs" firstAttribute="leading" secondItem="fOg-qj-oeJ" secondAttribute="trailing" constant="2" id="HQC-68-eQO"/>
-                                                                <constraint firstItem="gOz-zb-eKT" firstAttribute="leading" secondItem="voU-6y-fmT" secondAttribute="leading" constant="2" id="Ip9-vx-Cbk"/>
+                                                                <constraint firstItem="Xk7-XU-YDs" firstAttribute="leading" secondItem="YGb-0V-heG" secondAttribute="trailing" id="JCp-mi-Px1"/>
                                                                 <constraint firstItem="Xk7-XU-YDs" firstAttribute="centerY" secondItem="voU-6y-fmT" secondAttribute="centerY" id="Kfy-QC-tIV"/>
-                                                                <constraint firstItem="gOz-zb-eKT" firstAttribute="top" secondItem="fOg-qj-oeJ" secondAttribute="bottom" constant="5" id="YRn-YN-WIb"/>
-                                                                <constraint firstAttribute="trailing" secondItem="gOz-zb-eKT" secondAttribute="trailing" constant="2" id="igz-X6-Xcu"/>
+                                                                <constraint firstItem="YGb-0V-heG" firstAttribute="top" secondItem="voU-6y-fmT" secondAttribute="top" id="n1g-Hb-Z7T"/>
                                                                 <constraint firstAttribute="trailing" secondItem="Xk7-XU-YDs" secondAttribute="trailing" id="ncc-OC-sp1"/>
-                                                                <constraint firstItem="fOg-qj-oeJ" firstAttribute="leading" secondItem="voU-6y-fmT" secondAttribute="leading" constant="2" id="uBy-9W-g0N"/>
-                                                                <constraint firstItem="fOg-qj-oeJ" firstAttribute="top" secondItem="voU-6y-fmT" secondAttribute="top" constant="14" id="yBZ-wB-u2w"/>
+                                                                <constraint firstAttribute="bottom" secondItem="YGb-0V-heG" secondAttribute="bottom" id="vTb-VE-yiF"/>
+                                                                <constraint firstItem="YGb-0V-heG" firstAttribute="leading" secondItem="voU-6y-fmT" secondAttribute="leading" id="yM2-Zc-fNQ"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -5692,6 +5707,7 @@ this patient “No Show”?</string>
                                                         </collectionViewCellContentView>
                                                         <size key="customSize" width="111" height="62"/>
                                                         <connections>
+                                                            <outlet property="cellView" destination="YGb-0V-heG" id="SFm-eS-scg"/>
                                                             <outlet property="daysLabel" destination="fOg-qj-oeJ" id="une-ac-fQq"/>
                                                             <outlet property="totalSlotCountLabel" destination="gOz-zb-eKT" id="Rog-dp-Lz0"/>
                                                         </connections>

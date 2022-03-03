@@ -78,8 +78,8 @@ extension RescheduleAppointmentVC:UICollectionViewDelegate{
         {
         if let cell = doctorNewApptSlotDateCollView.cellForItem(at: indexPath)as? ApptDateSlotsCollectionViewCell{
           
-            cell.layer.backgroundColor = #colorLiteral(red: 0.737254902, green: 0.8549019608, blue: 0.9058823529, alpha: 1)
-            
+            cell.cellView.layer.backgroundColor = #colorLiteral(red: 0.737254902, green: 0.8549019608, blue: 0.9058823529, alpha: 1)
+            //cell.daysLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             
                    }
         }
@@ -96,9 +96,9 @@ extension RescheduleAppointmentVC:UICollectionViewDelegate{
         {
         if let cell = doctorNewApptSlotDateCollView.cellForItem(at: indexPath)as? ApptDateSlotsCollectionViewCell{
           
-            cell.layer.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+            cell.cellView.layer.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             
-            
+           // cell.daysLabel.textColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                    }
         }
     }
